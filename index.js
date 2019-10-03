@@ -1,1 +1,1 @@
-module.exports = 789
+module.exports = 'abc'
