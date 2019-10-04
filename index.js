@@ -1,1 +1,1 @@
-module.exports = 'ghj'
+module.exports = 123
