@@ -4,11 +4,11 @@ on: [push]
 
 jobs:
   lint-fix:
-    runs-on: node-12-alpine
+    runs-on: ubuntu-latest
     steps:
-    - name: prettier
-      uses: bltavares/actions/prettier@master
-      #env:
-        #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }
-      with:
-        args: 'autofix'
+      - name: prettier
+        uses: bltavares/actions/prettier@master
+        #env:
+          #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }
+        with:
+          args: 'autofix'
