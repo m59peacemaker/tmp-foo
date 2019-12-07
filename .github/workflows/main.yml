@@ -10,4 +10,4 @@ jobs:
       - name: prettier
         run: npx prettier --write '*.js'
       - name: commit
-        run: git status; git remote -v
+        run: git add . && git commit --amend --no-edit && git push
