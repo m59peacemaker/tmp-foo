@@ -6,6 +6,7 @@ jobs:
   lint-fix:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v1
       - name: prettier
         uses: m59peacemaker/actions/prettier@master
         env:
