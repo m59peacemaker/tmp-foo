@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: prettier
-        uses: bltavares/actions/prettier@master
+        uses: m59peacemaker/actions/prettier@master
         #env:
           #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }
         with:
