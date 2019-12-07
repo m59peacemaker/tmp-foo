@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2-beta
       - name: prettier
-        run: npx prettier --check '*.js'
+        run: npx prettier '*.js'
