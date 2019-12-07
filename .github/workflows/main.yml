@@ -10,5 +10,5 @@ jobs:
         uses: m59peacemaker/actions/prettier@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          #with:
-          #args: 'autofix'
+        with:
+          args: 'autofix'
