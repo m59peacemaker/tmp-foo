@@ -6,8 +6,6 @@ jobs:
   lint-fix:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2-beta
       - name: prettier
-        uses: m59peacemaker/actions/prettier@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx prettier --check 'vue/*/src/**/*.js'
