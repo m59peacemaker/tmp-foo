@@ -4,6 +4,7 @@ on: [push]
 
 jobs:
   lint-fix:
+    runs-on: node-12-alpine
     steps:
     - name: prettier
       uses: bltavares/actions/prettier@master
