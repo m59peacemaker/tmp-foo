@@ -10,5 +10,5 @@ git config --global user.name "Github Actions"
 git pull
 git checkout HEAD
 git add .
-git commit -m --amend --no-edit
+git commit --amend --no-edit
 git push
