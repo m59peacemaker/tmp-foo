@@ -10,4 +10,6 @@ jobs:
       - name: prettier
         run: npx prettier --write '*.js'
       - name: commit
+        env:
+          branch: ${{ github.head_ref }}
         run:  ./scripts/commit
