@@ -10,7 +10,7 @@ jobs:
       - name: prettier
         run: npx prettier --write '*.js'
       - name: commit
-        run:  |
+        run:  >
           set -e
           if git diff-index --quiet HEAD\; then
             exit 0
