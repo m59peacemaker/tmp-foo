@@ -10,4 +10,4 @@ jobs:
       - name: prettier
         run: npx prettier --write '*.js'
       - name: commit
-        run: echo "$GITHUB_REF"
+        run: ./scripts/commit
