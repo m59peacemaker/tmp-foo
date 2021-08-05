@@ -1,0 +1,3 @@
+[submodule "submodules/whatev"]
+	path = submodules/whatev
+	url = git@github.com:m59peacemaker/node-use-tmp-dir.git
